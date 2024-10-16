@@ -1,0 +1,30 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eternals Skill Search</title>
+    <script src="eternals.js" defer></script>
+  </head>
+  <body>
+    <h1>Eternals Skill Search</h1>
+
+    <ul id="eternals"></ul>
+    <p id="skills"></p>
+    <label for="attribute">What skill?</label>
+    <input type="text" id="skill" />
+    <button onclick="getRequiredSkill()">Find That Skill!</button>
+
+    <div
+      style="border: 5px dashed green; width: 50%; padding: 1em; margin: 1em"
+    >
+      <div
+        id="eternalsWithSkill"
+        style="display: flex;"
+      ></div>
+    </div>
+  </body>
+</html>
